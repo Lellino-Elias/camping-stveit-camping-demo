@@ -15,7 +15,6 @@ const campingStveit: CampsiteConfig = {
   brandKind: "4-Sterne Camping",
   regionLong: "Pongau · Salzburger Land · Österreich",
 
-  theme: "editorial",
   heroVariant: "center",
 
   claim: "Camping im Heilklima auf der Salzburger Sonnenterrasse",
