@@ -220,7 +220,7 @@ const campingStveit: CampsiteConfig = {
       "Wähle Zeitraum und Personen — Familie Resch meldet sich persönlich mit deiner Verfügbarkeit.",
     pricesArePlaceholder: false,
     priceNote:
-      "ab-Preise: Pauschale für 2 Personen inkl. Stellplatz pro Nacht — exkl. Kurtaxe, Mobilitätsbeitrag & Strom. Sommer-Nebensaison ab 3 Nächten.",
+      "ab-Preise: Pauschale für 2 Personen inkl. Stellplatz pro Nacht — exkl. Kurtaxe, Mobilitätsbeitrag & Strom. Alle Pauschalen ab 3 Nächten; Winter-Hauptsaison ab 4 Nächten.",
     highlight: {
       title: "Gratis-Skibus",
       text: "Im Winter bringt dich der kostenlose Skibus direkt vom Platz ins Skigebiet Snow Space Salzburg.",
@@ -228,7 +228,8 @@ const campingStveit: CampsiteConfig = {
     categories: [
       { id: "sommer-neben", label: "Sommer · Nebensaison", perNight: 32, perExtraGuest: 14 },
       { id: "sommer-haupt", label: "Sommer · Hauptsaison", perNight: 40.5, perExtraGuest: 14 },
-      { id: "winter", label: "Winter-Pauschale", perNight: 47, perExtraGuest: 16.5 },
+      { id: "winter-neben", label: "Winter · Nebensaison", perNight: 47, perExtraGuest: 16.5 },
+      { id: "winter-haupt", label: "Winter · Hauptsaison", perNight: 48, perExtraGuest: 16.5 },
     ],
   },
 
